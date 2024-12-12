@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins&family=Work+Sans&display=swap');
+
+body{
+    font-family: "Poppins", serif;
+}
+
+.container{
+    max-width: 1199px;
+    margin: 0 auto;
+    padding: 100px 50px;
+}
+
+.cv-header{
+    display: flex;
+    padding-left: 20px;
+}
+
+.avatar-image img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+.avatar-name{
+    padding-left: 30px;
+    padding-top: 15px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+.avatar-name h1{
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+.avatar-name h5{
+    font-size: 25px;
+    font-weight: 500;
+}
+.description p{
+    color: #666;
+    padding: 15px 20px;
+    border-top: 1px solid #b8b6b6;
+    border-bottom: 1px solid #b8b6b6;
+}
+
+.details{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.left-content{
+    flex-basis: 30%;
+}
+
+.right-content{
+    flex-basis: 60%;
+}
+
+
+.info-details h3{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #f5f2f2;
+    padding: 5px 15px;
+    font-family: "Montserrat", sans-serif;
+}
+.info-details ul{
+    margin: 0;
+    padding: 15px;
+    list-style-type: none;
+}
+
+.info-details li{
+    padding-bottom: 7px;
+    font-size: 15px;
+    color: #313131;
+}
+
+.info-details li i{
+    padding-right: 10px;
+}
+.relevant-cw ul{
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+/* achievements */
+.achievements{
+    display: flex;
+}
+
+/* line-disc */
+.line-disc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.disc{
+    width: 10px;
+    height: 10px;
+    background-color: #b0b0b0;
+    border-radius: 50%;
+}
+.line{
+    width: 2px;
+    height: 28px;
+    background-color: #b0b0b0;
+}
+.line2{
+    width: 2px;
+    height: 45px;
+    background-color: #b0b0b0;
+}
+.year ul li .year-three{
+    padding-bottom: 5px;
+}
+
+.inter-date{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills i{
+   color: green;
+   font-size: 13px;
+}
+
+/* footer */
+.cv-footer{
+    border-top: 1px solid #b8b6b6;
+    border-bottom: 1px solid #b8b6b6;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+  .language-skill {
+    display: flex;
+    align-items: center;
+  }
+  
+  .language-skill span {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+ 
+  
+  .progress-bar {
+    position: relative;
+    width: 100px;
+    height: 8px;
+    background-color: #ddd;   
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  .indicator {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 11px;
+    height: 11px;
+    background-color: black;
+    border-radius: 50%;
+  }
+  
